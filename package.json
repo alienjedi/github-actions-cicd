@@ -1,0 +1,29 @@
+{
+  "name": "github-actions-cicd",
+  "version": "1.0.0",
+  "description": "A test project for ci/cd with Github actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alienjedi/github-actions-cicd.git"
+  },
+  "keywords": [
+    "Test",
+    "CI/CD",
+    "Github",
+    "Actions"
+  ],
+  "author": "alienjedi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alienjedi/github-actions-cicd/issues"
+  },
+  "homepage": "https://github.com/alienjedi/github-actions-cicd#readme",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
