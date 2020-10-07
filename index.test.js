@@ -5,7 +5,12 @@ test('should add all numbers together', () => {
     expect(add(2,5,3,1)).toEqual(11);
 });
 
-test('should return a failed request', callback => {
+test('should substract numbers', () => {
+    expect(sub(2,-2,1)).toEqual(3);
+});
+
+/*
+ * test('should return a failed request', callback => {
     try {
         fetchData();
         expect(payload).toMatch(/credits/ig);
@@ -15,4 +20,4 @@ test('should return a failed request', callback => {
     }
     fetchData();
 });
-
+*/
