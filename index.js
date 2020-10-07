@@ -12,11 +12,11 @@ const app = express();
 app.use(express.json({limit: '5mb'}));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
-app.set('port', process.env.port || 3000);
+app.set('port', process.env.PORT || 3000);
 
 const server = http.createServer(app);
-server.listen(process.env.port || 3000);
-server.on('listening', () => console.log(`Server listening on port ${process.env.port || '3000'}`));
+server.listen(process.env.PORT || 3000);
+server.on('listening', () => console.log(`Server listening on port ${process.env.PORT || '3000'}`));
 
 const add = function(num1, num2, ...num3) {
     let total = num1+num2;
