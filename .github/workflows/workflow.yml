@@ -34,7 +34,7 @@ jobs:
         run: |
           echo "Installing dependencies"
           npm install
-          npm run test
+          #npm run test
       - name: Deploy to Heroku
         # You may pin to the exact commit or the version.
         # uses: AkhileshNS/heroku-deploy@dc88b512e1c4626bd70bbac8aa1f1afab5efbd04
